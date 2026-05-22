@@ -4,7 +4,12 @@ import { fresh } from "@fresh/plugin-vite";
 
 export default defineConfig({
   plugins: [
-    fresh(),
+    fresh({
+      serverEntry: "./src/main.ts",
+      clientEntry: "./src/client.ts",
+      islandsDir: "./src/islands",
+      routeDir: "./src/routes",
+    }),
     tailwindcss(),
   ],
 });

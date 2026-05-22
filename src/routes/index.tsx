@@ -5,10 +5,9 @@ export default define.page(function Home() {
   return (
     <div>
       <Head>
-        <title>Milan's Blog</title>
+        <title>My name is Milan.</title>
       </Head>
-      <div>
-        Hello world!
+      <div class="flex flex-col gap-10 my-10">
       </div>
     </div>
   );

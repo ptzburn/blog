@@ -19,7 +19,7 @@
     "**/_fresh/*"
   ],
   "imports": {
-    "@/": "./",
+    "@/": "./src/",
     "@preact-icons/ri": "jsr:@preact-icons/ri@^1.0.13",
     "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.3.0",
     "daisyui": "npm:daisyui@^5.5.19",
